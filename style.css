@@ -1,0 +1,250 @@
+body {
+  background-image: url(bgp.jpeg);
+}
+
+.house {
+  width: 80vw;
+  height: 500vh;
+  position: relative;
+  left: 8.5vw;
+}
+
+.counter {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  position: fixed;
+  width: 80vw;
+  top: 0;
+  border-top: 5px solid rgb(176, 126, 195);
+  border-left: 5px solid rgb(176, 126, 195);
+  border-right: 5px solid rgb(176, 126, 195);
+  z-index: 999;
+}
+
+.counter p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  margin-left: 10px;
+  color: rgb(235, 160, 212);
+}
+
+.counter span {
+  color: rgb(184, 225, 173);
+}
+
+.counter ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.counter li {
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 25px;
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(240, 152, 152);
+}
+
+.counter ul li a:hover {
+  border-radius: 10px;
+  background-color: rgb(250, 250, 207);
+  transition: 0.2s linear; 
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+  margin-left: -10px;
+}
+
+.gif img {
+  width: 150px;
+  height: auto;
+  margin-right: 90px;
+  margin-top: -10px;
+}
+
+.home {
+    height: 105vh;
+    width: 80vw;
+    background-color: rgb(234, 212, 255);
+    border-left: 5px solid rgb(176, 126, 195);
+    border-right: 5px solid rgb(176, 126, 195);
+  }
+  
+.home h1 {
+    font-size: 50px;
+    padding-top: 150px;
+    text-align: center;
+    color: rgb(175, 118, 192);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+.home p {
+    font-size: 17px;
+    margin-left: 10px;
+    color: rgb(174, 143, 188);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+.main {
+    width: 600px;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+  
+.side {
+    width: 300px;
+    float: right;
+    padding: 10px;
+    margin-top: -50px;
+}
+  
+.side img {
+    width: 270px;
+    height: 300px;
+    margin-left: 10px;
+}
+  
+.flowers {
+    height: 170vh;
+    width: 80vw;
+    background-color: rgb(212, 234, 173);
+    border-left: 5px solid rgb(176, 126, 195);
+    border-right: 5px solid rgb(176, 126, 195);
+}
+  
+.flowers h1{
+    margin-top: -10px;
+    padding-top: 160px;
+    font-size: 35px;
+    text-align: center;
+    color: rgba(186, 160, 32, 0.757);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flowers p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(158, 131, 50);
+}
+
+.flowers .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flowers .row .flow {
+    text-align: center;
+    padding-bottom: 4rem;
+    padding: 2rem;
+}
+
+.flowers .row .flow img {
+    border-radius: 50%;
+}
+
+.flowers .row .flow .bowqet-title {
+    margin: 1rem auto 0.5rem;
+    color: rgb(158, 131, 50);
+}
+
+.pots {
+    height: 170vh;
+    width: 80vw;
+    background-color: rgb(232, 190, 190);
+    border-left: 5px solid rgb(176, 126, 195);
+    border-right: 5px solid rgb(176, 126, 195);
+}
+
+.pots h1{
+    margin-top: -10px;
+    padding-top: 160px;
+    font-size: 35px;
+    text-align: center;
+    color: rgba(197, 100, 158, 0.757);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pots p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgba(197, 100, 158, 0.757);
+}
+
+.pots .rowr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pots .rowr .pot {
+    text-align: center;
+    padding-bottom: 4rem;
+    padding: 2rem;
+}
+
+.pots .rowr .pot img {
+    border-radius: 50%;
+}
+
+.pots .rowr .pot .pot-title {
+  margin: 1rem auto 0.5rem;
+  color: rgba(159, 65, 121, 0.757);
+}
+
+.more {
+    height: 100vh;
+    width: 80vw;
+    background-color: rgb(241, 241, 180);
+    border-left: 5px solid rgb(176, 126, 195);
+    border-right: 5px solid rgb(176, 126, 195);
+    border-bottom: 5px solid rgb(176, 126, 195);
+}
+
+.more h1{
+    margin-top: -10px;
+    padding-top: 160px;
+    font-size: 35px;
+    text-align: center;
+    color: rgba(134, 161, 77, 0.757);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.more p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgba(100, 117, 62, 0.757);
+}
+
+.more .one img{
+    width: 200px;
+    height: 180px;
+    margin-top: -14px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
